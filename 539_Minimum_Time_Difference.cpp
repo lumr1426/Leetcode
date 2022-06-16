@@ -46,8 +46,8 @@ public:
 #Time Complexity: O(nlogn) -> it is depended by which sorting algorithm you use, in this case quicksort
 #Space Complexity: O(n)
 
-#Runtime: 32 ms, faster than 21.08%
-#Memory Usage: 13.7 MB, less than 30.14%
+#Runtime: 15 ms, faster than 79.25%
+#Memory Usage: 13.7 MB, less than 45.04%
 
 #My Comments
 #1. First change the string to int representing time by minutes
