@@ -22,11 +22,6 @@ public:
         {
             string hour=timePoints[i].substr(0,2);
             string min=timePoints[i].substr(3,2);
-            // When one digit number, erase the 0 at the front
-            if(hour[0]=='0')
-                hour=hour.substr(1,1);
-            if(min[0]=='0')
-                min=min.substr(1,1);
             int total_min=stoi(hour)*60+stoi(min);
             min_time.push_back(total_min);
             cout<<min_time[i]<<"\n";
